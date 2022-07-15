@@ -655,6 +655,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
 }
+label,
 blockquote p{
     color:#333333;
 }
