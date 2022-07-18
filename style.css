@@ -709,6 +709,13 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color:#000000;
+}
+.social span::before{
+    color: #000000;
+}
+.social span:hover{
+    color: #FFF;
 }
 
 h2 {
