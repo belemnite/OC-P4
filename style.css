@@ -311,12 +311,14 @@ figcaption{
 
 .navbar-brand img {
     max-height: 200px;
+    height:40px;
     margin: 0 5px 0 0;
     display: inline;
 }
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    width: 216px;
 }
 
 .nav-center .navbar-brand img {
@@ -369,7 +371,10 @@ figcaption{
     position: relative;
     z-index: 2;
 }
-
+.image-resize-mode{
+    width:100px;
+    height:100px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -852,6 +857,12 @@ h4 {
 }
 .col-sm-4{
     color: black;
+}
+img.img-responsive.portfolio-thumb{
+    min-width: 210px;
+    min-height: 210px;
+    width: 270px;
+    height:270px;
 }
 
 @media (max-width: 1024px) {
