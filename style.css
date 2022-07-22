@@ -864,6 +864,9 @@ img.img-responsive.portfolio-thumb{
     width: 270px;
     height:270px;
 }
+.col-sm-6 p{
+    color:rgba(0, 0, 0, 1)
+}
 
 @media (max-width: 1024px) {
     .bloc {
